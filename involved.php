@@ -64,8 +64,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h1>Terms of Use</h1>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                    <h1>Get Involve</h1>
+                   
                 </div>
                 <div class="col-sm-6">
                     <ul class="breadcrumb pull-right">
