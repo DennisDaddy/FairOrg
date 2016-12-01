@@ -64,14 +64,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h1>Get Involve</h1>
+                    <h1>Get Involved</h1>
                    
                 </div>
                 <div class="col-sm-6">
                     <ul class="breadcrumb pull-right">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Pages</a></li>
-                        <li class="active">Terms of Use</li>
+                        
+                        <li class="active">Get Involved</li>
                     </ul>
                 </div>
             </div>
