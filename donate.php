@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Terms of Use | Flat Theme</title>
+    <title>Donate | FAIR</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -64,14 +64,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h1>Terms of Use</h1>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                    <h1>Donate</h1>
+                    
                 </div>
                 <div class="col-sm-6">
                     <ul class="breadcrumb pull-right">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Pages</a></li>
-                        <li class="active">Terms of Use</li>
+                        
+                        <li class="active">Donate</li>
                     </ul>
                 </div>
             </div>
