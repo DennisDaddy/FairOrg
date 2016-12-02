@@ -275,12 +275,11 @@
             </div>
         </div>
     </section><!--/#bottom-->
-
-    <footer id="footer" class="midnight-blue">
+<footer id="footer" class="midnight-blue">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                      <p>All Rights Reserved | FAIR &copy; <?php echo date("Y"); ?> |  <a href="admin/login.php"><i class="icon-lock"></i>  Admin Login</a></p>
+                     <p>All Rights Reserved | FAIR &copy; <?php echo date("Y"); ?> |  <a href="admin/login.php"><i class="icon-lock"></i>  Admin Login</a></p>
 
                 </div>
                 <div class="col-sm-6">
