@@ -99,7 +99,7 @@
             </div><!--/.col-sm-8-->
             <div class="col-sm-4">
                 <h4>Our Location</h4>
-                <iframe width="100%" height="215" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.au/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Dhaka,+Dhaka+Division,+Bangladesh&amp;aq=0&amp;oq=dhaka+ban&amp;sll=40.714353,-74.005973&amp;sspn=0.836898,1.815491&amp;ie=UTF8&amp;hq=&amp;hnear=Dhaka+Division,+Bangladesh&amp;t=m&amp;ll=24.542126,90.293884&amp;spn=0.124922,0.411301&amp;z=8&amp;output=embed"></iframe>
+                <iframe width="100%" height="215" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.ke/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=nakuru,+nakuru+Division,+GIDDOPLAZA&amp;aq=0&amp;oq=nakuru+giddo&amp;sll=-0.2869854,36.0595571&amp;sspn=-0.2869854,36.0595571&amp;ie=UTF8&amp;hq=&amp;hnear=nakuru+nakuru,+giddo plaza&amp;t=m&amp;ll=-0.2869854,36.0595571&amp;spn=-0.2869854,36.0595571&amp;z=8&amp;output=embed"></iframe>
             </div><!--/.col-sm-4-->
         </div>
     </section><!--/#contact-page-->
