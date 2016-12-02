@@ -39,21 +39,20 @@
                 <a class="navbar-brand" href="index.php"><h1 style="color: #D4AF37; font-family: cursive;">Usama Mukwaya</h1></h1></a>
             </div>
             <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                    <li><a href="filmology.php"><i class="fa fa-film" aria-hidden="true"></i> Filmology</a></li>
+                 <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                    <li><a href="about-us.php"><i class="fa fa-user-secret" aria-hidden="true"></i> About Us</a></li>
+                    <li><a href="donate.php"><i class="fa fa-gift" aria-hidden="true"></i> Donate</a></li>
+                    <li><a href="involved.php"><i class="fa fa-connectdevelop" aria-hidden="true"></i> Get Involved</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i> Osam <i class="icon-angle-down"></i></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-address-book-o" aria-hidden="true"></i> Careers <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                           <li><a href="osam.php"><i class="fa fa-user" aria-hidden="true"></i> Osam</a></li>
-                           <li><a href="news.php"><i class="fa fa-newspaper-o" aria-hidden="true"></i> News</a></li>
-                           <li><a href="gallery.php"><i class="fa fa-picture-o" aria-hidden="true"></i> Gallery</a></li>
-                           <li><a href="awards.php"><i class="fa fa-gift" aria-hidden="true"></i> Awards</a></li>
+                            <li><a href="career.php"><i class="fa fa-certificate" aria-hidden="true"></i> Career</a></li>
+                            <li><a href="blog-item.php"><i class="fa fa-gavel" aria-hidden="true"></i> Jobs</a></li>
                         </ul>
                     </li>
-                    <li><a href="blog.php"><i class="fa fa-pencil" aria-hidden="true"></i> Blog</a></li>
-                    <li><a href="community.php"><i class="fa fa-users" aria-hidden="true"></i> Community</a></li>  
-                    <li><a href="contact.php"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
+                    <li><a href="blog.php"><i class="fa fa-pencil" aria-hidden="true"></i> Blog</a></li> 
+                    <li><a href="contact-us.php"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
                 </ul>
             </div>
         </div>
