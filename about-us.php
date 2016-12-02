@@ -77,7 +77,7 @@
                 <p>Family AIDS Initiative Response is a local NGO in Kenya addresses the challenges faced by children who have either been orphaned by AIDS or live with parents who are affected from AIDS-related illnesses.We are involved in implementing the Preventing Orphaning Initiative (TPOI) a programme funded by Family Health International and AphiaPlus. Through this project we have helped over 15,300 children with their education, providing school uniforms, textbooks, desks and chairs and writing materials. The programme also incorporates Linkages across the Continuum of HIV Services for Key Populations Affected by HIV (LINKAGES), we conduct a range of activities to reduce HIV transmission among key populations — sex workers, men who have sex with men, transgender persons and people who inject drugs — and to improve their enrollment and retention in care</p>
             </div><!--/.col-sm-6-->
             <div class="col-sm-6">
-                <h2>Our Skills</h2>
+                <h2>Number of Our Beneficiaries</h2>
                 <div>
                     <div class="progress">
                         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">

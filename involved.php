@@ -72,8 +72,8 @@
     </section><!--/#title-->    
 
     <section id="terms" class="container">
-        <h3>Introduction</h3>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+        <h3>Our Campaigns</h3>
+        <p>We are non Governmental organization based in Nakuru county implementing various programmes, Was established in 2001, seeking to address enormous challenges faced by Hundres of children across Kenya, who have been orphaned by HIV/AIDs and Vulnerable in the Society .</p>
 
         <p>&nbsp;</p>
 
