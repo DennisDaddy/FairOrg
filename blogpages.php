@@ -181,64 +181,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <h4 style="color: #D4AF37;">Latest News</h4>
-                     <div>
-                        <div class="media">
-                            <div class="pull-left">
-                                
-                            </div>
-                            <div class="media-body">
-                                <?php
-                include("includes/connect.php");
-            
-                $query = "select * from blog order by 1 DESC LIMIT 0,3";
-            
-                $run =mysqli_query($con,$query);
-            
-            while ($row=mysqli_fetch_array($run)) {
-            
-                $blog_id =$row['blog_id'];
-                $title =$row['blog_title'];
-                $blog_date =$row['blog_date'];
-                $image =$row['blog_image'];
-               
-                ?>
-                <a href="blogpages.php?id=<?php echo $blog_id; ?>">
-                       
-               <span class="media-heading"><?php echo $title; ?></span></a>
-                 <p><b><?php echo $blog_date; ?></b></p>
-                  
-                   
-            
-               
-                                
-                                 <?php } ?>
-                            
-                            </div>
-                        </div>
-                        
-                        
-                    </div>  
+                    <h4>About Us</h4>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+                    <p>Pellentesque habitant morbi tristique senectus.</p>
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
-                    <h4 style="color: #D4AF37;">Custom Menu</h4>
+                    <h4>Our Company</h4>
                     <div>
                         <ul class="arrow">
-                            <li><a href="filmology.php">Filmology</a></li>
-                            <li><a href="news.php">News</a></li>
-                            <li><a href="awards.php">Awards</a></li>
-                             <li><a href="gallery.php">Gallery</a></li>
-                            <li><a href="blog.php">Blog</a></li>
-                            <li><a href="community.php">Community</a></li>
-                            <li><a href="contact.php">Contact Us</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Donate</a></li>
+                            <li><a href="#">Get Involved</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Blog</a></li>
+                             <li><a href="#">Contact Us</a></li>
                            
                         </ul>
                     </div>
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
-                    <h4 style="color: #D4AF37;">Latest Blog</h4>
+                    <h4>Latest Blog</h4>
                     <div>
                         <div class="media">
                             <div class="pull-left">
@@ -278,13 +243,30 @@
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
-                    <h4 style="color: #D4AF37;">Address</h4>
-                    <address>
-                         <br>
-                        <br>
-                        <br>
-                    </address>
-                    <h4 style="color: #D4AF37;">Newsletter</h4>
+
+                     <h4>ADDRESS</h4>
+                     <address>
+                <ul class="unstyled address">
+                    <li>
+                        <i class="icon-home"></i><strong>Head Office:</strong><br>
+                         Giddo Plaza, off George Morara Rd Nakuru
+                    </li>
+                    <li>
+                        <i class="icon-envelope"></i>
+                        <strong>Email: </strong> info@fair-ke.org
+                    </li>
+                    <li>
+                        <i class="icon-globe"></i>
+                        <strong>Website:</strong> www.fair-ke.org
+                    </li>
+                    <li>
+                        <i class="icon-phone"></i>
+                        <strong>Phone:</strong> (+254) 722894206 
+                    </li>
+                </ul>
+                </address>
+
+                    <h4>Newsletter</h4>
                     <form role="form">
                         <div class="input-group">
                             <input type="text" class="form-control" autocomplete="off" placeholder="Enter your email">
