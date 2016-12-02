@@ -35,8 +35,8 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about-us.php">About Usphpa></li>
+                    <li class="active"><a href="index.php">Home</a></li>
+                    <li><a href="about-us.php">About Us</a></li>
                     <li><a href="donate.php">Donate</a></li>
                     <li><a href="involved.php">Get Involved</a></li>
                     <li class="dropdown">
