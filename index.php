@@ -347,13 +347,29 @@
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
-                    <h4>Address</h4>
-                    <address>
-                        <strong>Twitter, Inc.</strong><br>
-                        795 Folsom Ave, Suite 600<br>
-                        San Francisco, CA 94107<br>
-                        <abbr title="Phone">P:</abbr> (123) 456-7890
-                    </address>
+
+                     <h4>ADDRESS</h4>
+                     <address>
+                <ul class="unstyled address">
+                    <li>
+                        <i class="icon-home"></i><strong>Head Office:</strong><br>
+                         Giddo Plaza, off George Morara Rd Nakuru
+                    </li>
+                    <li>
+                        <i class="icon-envelope"></i>
+                        <strong>Email: </strong> info@fair-ke.org
+                    </li>
+                    <li>
+                        <i class="icon-globe"></i>
+                        <strong>Website:</strong> www.fair-ke.org
+                    </li>
+                    <li>
+                        <i class="icon-phone"></i>
+                        <strong>Phone:</strong> (+254) 722894206 
+                    </li>
+                </ul>
+                </address>
+
                     <h4>Newsletter</h4>
                     <form role="form">
                         <div class="input-group">
