@@ -35,19 +35,19 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.php">Home</a></li>
-                    <li><a href="about-us.php">About Us</a></li>
+                    <li class="active"><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                    <li><a href="about-us.php"><i class="fa fa-user-secret" aria-hidden="true"></i> About Us</a></li>
                     <li><a href="donate.php"><i class="fa fa-gift" aria-hidden="true"></i> Donate</a></li>
-                    <li><a href="involved.php">Get Involved</a></li>
+                    <li><a href="involved.php"><i class="fa fa-connectdevelop" aria-hidden="true"></i> Get Involved</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Careers <i class="icon-angle-down"></i></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-address-book-o" aria-hidden="true"></i> Careers <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="career.php">Career</a></li>
-                            <li><a href="blog-item.php">Jobs</a></li>
+                            <li><a href="career.php"><i class="fa fa-certificate" aria-hidden="true"></i> Career</a></li>
+                            <li><a href="blog-item.php"><i class="fa fa-gavel" aria-hidden="true"></i> Jobs</a></li>
                         </ul>
                     </li>
-                    <li><a href="blog.php">Blog</a></li> 
-                    <li><a href="contact-us.php">Contact</a></li>
+                    <li><a href="blog.php"><i class="fa fa-pencil" aria-hidden="true"></i> Blog</a></li> 
+                    <li><a href="contact-us.php"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
                 </ul>
             </div>
         </div>
