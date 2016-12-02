@@ -312,29 +312,36 @@
                     <div>
                         <div class="media">
                             <div class="pull-left">
-                                <img src="images/blog/thumb1.jpg" alt="">
+                                
+                                
                             </div>
                             <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 17 Aug 2013</small>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <img src="images/blog/thumb2.jpg" alt="">
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 13 Sep 2013</small>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <img src="images/blog/thumb3.jpg" alt="">
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 11 Jul 2013</small>
+
+                                <?php
+                include("includes/connect.php");
+            
+                $query = "select * from blog order by 1 DESC LIMIT 0,3";
+            
+                $run =mysqli_query($con,$query);
+            
+            while ($row=mysqli_fetch_array($run)) {
+            
+                $blog_id =$row['blog_id'];
+                $title =$row['blog_title'];
+                $blog_date =$row['blog_date'];
+                $image =$row['blog_image'];
+               
+                ?>
+                <a href="blogpages.php?id=<?php echo $blog_id; ?>">
+                       
+                 <span class="media-heading"><?php echo $title; ?></span></a>
+                 <p><b><?php echo $blog_date; ?></b></p>
+                  
+                   
+            
+               
+                                
+                                 <?php } ?>
                             </div>
                         </div>
                     </div>  
