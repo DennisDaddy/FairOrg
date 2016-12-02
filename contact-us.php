@@ -49,10 +49,6 @@
                     <li><a href="blog.php"><i class="fa fa-pencil" aria-hidden="true"></i> Blog</a></li> 
                     <li><a href="contact-us.php"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
                 </ul>
-                    </li>
-                    <li><a href="blog.html">Blog</a></li> 
-                    <li class="active"><a href="contact-us.html">Contact</a></li>
-                </ul>
             </div>
         </div>
     </header><!--/header-->
