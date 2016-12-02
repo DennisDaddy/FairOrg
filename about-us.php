@@ -121,18 +121,17 @@
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
-                    <h4>Company</h4>
+                    <h4>Our Company</h4>
                     <div>
                         <ul class="arrow">
-                            <li><a href="#">The Company</a></li>
-                            <li><a href="#">Our Team</a></li>
-                            <li><a href="#">Our Partners</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Faq</a></li>
-                            <li><a href="#">Conatct Us</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Copyright</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Donate</a></li>
+                            <li><a href="#">Get Involved</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Blog</a></li>
+                             <li><a href="#">Contact Us</a></li>
+                           
                         </ul>
                     </div>
                 </div><!--/.col-md-3-->
@@ -142,42 +141,65 @@
                     <div>
                         <div class="media">
                             <div class="pull-left">
-                                <img src="images/blog/thumb1.jpg" alt="">
+                                
+                                
                             </div>
                             <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 17 Aug 2013</small>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <img src="images/blog/thumb2.jpg" alt="">
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 13 Sep 2013</small>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <img src="images/blog/thumb3.jpg" alt="">
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 11 Jul 2013</small>
+
+                                <?php
+                include("includes/connect.php");
+            
+                $query = "select * from blog order by 1 DESC LIMIT 0,3";
+            
+                $run =mysqli_query($con,$query);
+            
+            while ($row=mysqli_fetch_array($run)) {
+            
+                $blog_id =$row['blog_id'];
+                $title =$row['blog_title'];
+                $blog_date =$row['blog_date'];
+                $image =$row['blog_image'];
+               
+                ?>
+                <a href="blogpages.php?id=<?php echo $blog_id; ?>">
+                       
+                 <span class="media-heading"><?php echo $title; ?></span></a>
+                 <p><b><?php echo $blog_date; ?></b></p>
+                  
+                   
+            
+               
+                                
+                                 <?php } ?>
                             </div>
                         </div>
                     </div>  
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
-                    <h4>Address</h4>
-                    <address>
-                        <strong>Twitter, Inc.</strong><br>
-                        795 Folsom Ave, Suite 600<br>
-                        San Francisco, CA 94107<br>
-                        <abbr title="Phone">P:</abbr> (123) 456-7890
-                    </address>
+
+                     <h4>ADDRESS</h4>
+                     <address>
+                <ul class="unstyled address">
+                    <li>
+                        <i class="icon-home"></i><strong>Head Office:</strong><br>
+                         Giddo Plaza, off George Morara Rd Nakuru
+                    </li>
+                    <li>
+                        <i class="icon-envelope"></i>
+                        <strong>Email: </strong> info@fair-ke.org
+                    </li>
+                    <li>
+                        <i class="icon-globe"></i>
+                        <strong>Website:</strong> www.fair-ke.org
+                    </li>
+                    <li>
+                        <i class="icon-phone"></i>
+                        <strong>Phone:</strong> (+254) 722894206 
+                    </li>
+                </ul>
+                </address>
+
                     <h4>Newsletter</h4>
                     <form role="form">
                         <div class="input-group">
