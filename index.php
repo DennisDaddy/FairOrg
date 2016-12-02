@@ -42,8 +42,8 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Careers <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="blog-item.html">Jobs</a></li>
+                            <li><a href="career.php">Career</a></li>
+                            <li><a href="blog-item.php">Jobs</a></li>
                         </ul>
                     </li>
                     <li><a href="blog.php">Blog</a></li> 
