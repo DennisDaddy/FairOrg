@@ -37,7 +37,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.php">Home</a></li>
                     <li><a href="about-us.php">About Us</a></li>
-                    <li><a href="donate.php">Donate</a></li>
+                    <li><a href="donate.php"><i class="fa fa-gift" aria-hidden="true"></i> Donate</a></li>
                     <li><a href="involved.php">Get Involved</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Careers <i class="icon-angle-down"></i></a>
