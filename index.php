@@ -291,18 +291,17 @@
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
-                    <h4>Company</h4>
+                    <h4>Our Company</h4>
                     <div>
                         <ul class="arrow">
-                            <li><a href="#">Company Overview</a></li>
-                            <li><a href="#">Meet The Team</a></li>
-                            <li><a href="#">Our Awesome Partners</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Frequently Asked Questions</a></li>
-                            <li><a href="#">Conatct Us</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Copyright</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Donate</a></li>
+                            <li><a href="#">Get Involved</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Blog</a></li>
+                             <li><a href="#">Contact Us</a></li>
+                           
                         </ul>
                     </div>
                 </div><!--/.col-md-3-->
