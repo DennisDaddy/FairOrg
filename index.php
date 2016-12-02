@@ -123,7 +123,7 @@
                
                 
          <section id="terms" class="container"><!--/#terms-->
-        <h2 style="color: #d9534f; font-family: cursive;">Welcome to Family AIDS Initiative Response(FAIR)</h2>
+        <h2 style="color:#ff0000; font-family:'Debevic Circular', serif; font-weight:600;">Welcome to Family AIDS Initiative Response(FAIR)</h2>
 
         <p>Welcome to my abracadabra world! Growing up in a humble, religious family and environment has given me all the possibilities in life to creatively put myself out. I haven’t gotten so far as I need to but to the expedition I have traveled, I am greatly thankful to the almighty for the chance to work and associate with some of the world’s finest personalities. I also am gratified to the exceptional beings that have helped me shove through. I am devoted humanity and to me there is no more to its narrative than the days we live to smile and breath. The moments you realize you had to live by someone, with someone and the always unimaginative; for someone. I love writing and I adore deeply art! It’s not so far that I have started this journey but with poise I would like to try and explore the humankind through storytelling, from the tender tales of real life to the spooky world of fiction.
         Lots of love. </p>  
@@ -177,7 +177,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <h3>Our Recent Works</h3>
+                    <h3 style="color:#ff0000; font-family:'Debevic Circular', serif; font-weight:600;">Our Recent Works</h3>
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                     <div class="btn-group">
                         <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
