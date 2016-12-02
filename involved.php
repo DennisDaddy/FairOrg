@@ -197,7 +197,7 @@
             </div>
         </div>
     </footer><!--/#footer-->
-
+    <script src="https://use.fontawesome.com/4d0c79038f.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
