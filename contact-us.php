@@ -104,13 +104,13 @@
         </div>
     </section><!--/#contact-page-->
 
-<section id="bottom" class="wet-asphalt">
+ <section id="bottom" class="wet-asphalt">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <h4>About Us</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                    <p>Pellentesque habitant morbi tristique senectus.</p>
+                    <p>Family AIDS Initiative Response is a local NGO in Kenya addresses the challenges faced by children who have either been orphaned by AIDS or live with parents who are affected from AIDS-related illnesses.We are involved in implementing the Preventing Orphaning Initiative (TPOI) a programme funded by Family Health International and AphiaPlus.</p>
+                    
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
@@ -175,17 +175,15 @@
                      <address>
                 <ul class="unstyled address">
                     <li>
-                        <i class="icon-home"></i><strong>Head Office:</strong><br>
+                        <i class="icon-home"></i><strong> Head Office:</strong><br>
                          Giddo Plaza, off George Morara Rd Nakuru
                     </li>
+                     <br>
                     <li>
                         <i class="icon-envelope"></i>
                         <strong>Email: </strong> info@fair-ke.org
                     </li>
-                    <li>
-                        <i class="icon-globe"></i>
-                        <strong>Website:</strong> www.fair-ke.org
-                    </li>
+                     <br>
                     <li>
                         <i class="icon-phone"></i>
                         <strong>Phone:</strong> (+254) 722894206 
@@ -193,15 +191,6 @@
                 </ul>
                 </address>
 
-                    <h4>Newsletter</h4>
-                    <form role="form">
-                        <div class="input-group">
-                            <input type="text" class="form-control" autocomplete="off" placeholder="Enter your email">
-                            <span class="input-group-btn">
-                                <button class="btn btn-danger" type="button">Go!</button>
-                            </span>
-                        </div>
-                    </form>
                 </div> <!--/.col-md-3-->
             </div>
         </div>
