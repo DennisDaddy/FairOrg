@@ -73,29 +73,19 @@
 
     <section id="terms" class="container">
         <h3>Introduction</h3>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+        <p>For decades ,FAIR has been working with the most disadvantaged children to provide them better healthcare, education opportunities and protection from physical and mental exploitation. In Kenya we go right in the middle of the poorest communities with our development projects and help children be children. We rid them from the clutches of malnutrition, send them to schools, help pregnant women deliver safe, pull children out of child labour – all with an aim to give children a happy childhood. It is because of the hundreds and thousands of generous donors that we have been able to pull it so far. We need your continued support to enable us to continue with our work with the same vigour and passion. <br>
+        Make lasting change in a child's life through nutrition, health, education and more - all for less than $1 a day.(Make a Memorial Gift)Honor a loved one’s legacy by making a gift in their memory to support hope for a brighter future for all children.or you can visit us in our physical location at GIDDO PLAZA, Nakuru county Girls and boys are counting on you to support our mission and donate for children. Save the Children works in the world’s most vulnerable places, from America to Kenya – saving one child at a time. And we can’t do it without you. There are so many ways to give to Save the Children.</p>
+        <hr>
 
         <p>&nbsp;</p>
 
-        <h3>Unauthorized/Illegal Usage</h3>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-
-        <p>&nbsp;</p>
-
-        <h3>Ownership</h3>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-
-        <p>&nbsp;</p>
-        <h3>Anti-fraud</h3>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-
-        <p>&nbsp;</p>
-        <h3>Refund policy</h3>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed</p>
-        <p>&nbsp;</p>
-
-        <h3>Warranty and support</h3>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+        <h3>Ways to Donate</h3>
+        <ul>
+        <li>Donate Through our Corpoarate</li>
+        <li> Support Gift Planning Donation</li>
+        <li> Goods Sponsor at Event</li>    
+        </ul>
+        <hr>
     </section><!--/#terms-->
 
     <section id="bottom" class="wet-asphalt">
