@@ -74,28 +74,30 @@
     <section id="terms" class="container">
         <h3>Our Campaigns</h3>
         <p>We are non Governmental organization based in Nakuru county implementing various programmes, Was established in 2001, seeking to address enormous challenges faced by Hundres of children across Kenya, who have been orphaned by HIV/AIDs and Vulnerable in the Society .</p>
+        <hr>
 
         <p>&nbsp;</p>
 
-        <h3>Unauthorized/Illegal Usage</h3>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+        <h3>Area Of Interest: HIV/AIDS</h3>
+        <p>We are playing a key role in health issues within Nakuru County at large in collaboration with Ministry Of Health {MOH} by implementing Government health policies. Since 2001 to date We have managed to cap the spread of HIV/AIDS by fully engaging various stakeholders within and without the Organization by carrying outreaches on how to prevent the spread of HIV/AIDS and also by helping the infected persons linking them to support group, community sensitization and Health community based care.We have put more emphasis on the most at risk population {MARPS}, e.g Female Sex workers{FSWs},people living with HIV/AIDs{PLHIV/AIDs} and truck drivers.</p>
+        <hr>
 
         <p>&nbsp;</p>
 
-        <h3>Ownership</h3>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+        <h3>Access To Quality Education</h3>
+        <p>We are facilitating access to quality Education for the orphans and vulnerable children in Nakuru county by paying school fees which involves the engagement of the local leaders for transparency and fairness, distribution of school uniforms in both primary and secondary schools and linking them to TERTIARY COLLEGES for those children in the programme who don’t meet the qualification to join secondary schools or universities. In addition , we also assist vulnerable children to acquire Birth Certificate from Registrar of persons by meeting the cost for the above exercise.</p>
+        <hr>
 
         <p>&nbsp;</p>
-        <h3>Anti-fraud</h3>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+        <h3>Community Economic Strengthening and Sustainability</h3>
+        <p>We enhances the capacity of the local people within Nakuru County to depend on themselves by encouraging them to engage in income generating activities like the Saving Internal Local Community {SILC groups}, where they save and borrow from and link them to Micro-Finances and Government lending agencies such as Women Enterprise Fund. FAIR is also contributing immensely to the development projects in the community , such as the construction of green houses for various groups in different parts of Nakuru county, which has improved the food security and generating income for the locals.</p>
+        <hr>
 
         <p>&nbsp;</p>
-        <h3>Refund policy</h3>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed</p>
+        <h3>LGBT Youth rights</h3>
+        <p>We celebrates the human rights of sexual minorities and as such is actively involved heavily in networking with LGBT activist groups in Kenya. It connects them to opportunities and activities that promote their development </p>
         <p>&nbsp;</p>
-
-        <h3>Warranty and support</h3>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+        <hr>
     </section><!--/#terms-->
 
     <section id="bottom" class="wet-asphalt">
