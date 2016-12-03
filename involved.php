@@ -171,24 +171,22 @@
                      <address>
                 <ul class="unstyled address">
                     <li>
-                        <i class="icon-home"></i><strong>Head Office:</strong><br>
+                        <i class="icon-home"></i><strong> Head Office:</strong><br>
                          Giddo Plaza, off George Morara Rd Nakuru
                     </li>
+                     <br>
                     <li>
                         <i class="icon-envelope"></i>
                         <strong>Email: </strong> info@fair-ke.org
                     </li>
-                    <li>
-                        <i class="icon-globe"></i>
-                        <strong>Website:</strong> www.fair-ke.org
-                    </li>
+                     <br>
                     <li>
                         <i class="icon-phone"></i>
                         <strong>Phone:</strong> (+254) 722894206 
                     </li>
                 </ul>
                 </address>
-                
+
                 </div> <!--/.col-md-3-->
             </div>
         </div>
