@@ -188,16 +188,7 @@
                     </li>
                 </ul>
                 </address>
-
-                    <h4>Newsletter</h4>
-                    <form role="form">
-                        <div class="input-group">
-                            <input type="text" class="form-control" autocomplete="off" placeholder="Enter your email">
-                            <span class="input-group-btn">
-                                <button class="btn btn-danger" type="button">Go!</button>
-                            </span>
-                        </div>
-                    </form>
+                
                 </div> <!--/.col-md-3-->
             </div>
         </div>
