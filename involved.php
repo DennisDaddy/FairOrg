@@ -105,8 +105,8 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <h4>About Us</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                    <p>Pellentesque habitant morbi tristique senectus.</p>
+                    <p>Family AIDS Initiative Response is a local NGO in Kenya addresses the challenges faced by children who have either been orphaned by AIDS or live with parents who are affected from AIDS-related illnesses.We are involved in implementing the Preventing Orphaning Initiative (TPOI) a programme funded by Family Health International and AphiaPlus.</p>
+                    
                 </div><!--/.col-md-3-->
 
                 <div class="col-md-3 col-sm-6">
