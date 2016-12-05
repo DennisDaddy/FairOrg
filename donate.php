@@ -77,13 +77,14 @@
             <div class="col-sm-8">
             <img src="images/blog/22.jpg" width="100%" height="500" />
             <p>&nbsp;</p>
-            <h5>For decades ,FAIR has been working with the most disadvantaged children to provide them better healthcare, education opportunities and protection from physical and mental exploitation. In Kenya we go right in the middle of the poorest communities with our development projects and help children be children. We rid them from the clutches of malnutrition, send them to schools, help pregnant women deliver safe, pull children out of child labour – all with an aim to give children a happy childhood. It is because of the hundreds and thousands of generous donors that we have been able to pull it so far. We need your continued support to enable us to continue with our work with the same vigour and passion.<br>
+            <h5>For decades ,FAIR has been working with the most disadvantaged children to provide them better healthcare, education opportunities and protection from physical and mental exploitation. In Kenya we go right in the middle of the poorest communities with our development projects and help children be children. We rid them from the clutches of malnutrition, send them to schools, help pregnant women deliver safe, pull children out of child labour – all with an aim to give children a happy childhood. <br>It is because of the hundreds and thousands of generous donors that we have been able to pull it so far. We need your continued support to enable us to continue with our work with the same vigour and passion.<br>
             </h5>
              </div><!--/.col-sm-6-->
             <div class="col-sm-4">
                 
                 <div>
                 <h5>Make lasting change in a child's life through nutrition, health, education and more - all for less than $1 a day.(Make a Memorial Gift)Honor a loved one’s legacy by making a gift in their memory to support hope for a brighter future for all children.or you can visit us in our physical location at GIDDO PLAZA, Nakuru county Girls and boys are counting on you to support our mission and donate for children. Save the Children works in the world’s most vulnerable places, from America to Kenya – saving one child at a time. And we can’t do it without you. There are so many ways to give to Save the Children. </h5>
+                <hr>
                 <h2><b>Ways to Donate</b></h2>
                 <ul>
                     <li>Donate Through our Corpoarate</li>
