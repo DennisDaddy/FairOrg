@@ -171,7 +171,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <h3 style="color:#ff0000; font-family:'Debevic Circular', serif; font-weight:600;">Our Recent Works</h3>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    <p>This are some of the recent projects that we have been doing for the community around us.</p>
                     <div class="btn-group">
                         <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
                         <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a>
@@ -272,6 +272,49 @@
                 </div>
             </div><!--/.row-->
         </div>
+
+        <div class="gap"></div>
+        <h1 class="center">Meet the Team</h1>
+        <p class="lead center">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <div class="gap"></div>
+
+        <div id="meet-the-team" class="row">
+            <div class="col-md-3 col-xs-6">
+                <div class="center">
+                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team-member.jpg" alt="" ></p>
+                    <h5>David J. Robbins<small class="designation muted">Senior Vice President</small></h5>
+                    <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-xs-6">
+                <div class="center">
+                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team-member.jpg" alt="" ></p>
+                    <h5>David J. Robbins<small class="designation muted">Senior Vice President</small></h5>
+                    <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                </div>
+            </div>        
+            <div class="col-md-3 col-xs-6">
+                <div class="center">
+                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team-member.jpg" alt="" ></p>
+                    <h5>David J. Robbins<small class="designation muted">Senior Vice President</small></h5>
+                    <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                </div>
+            </div>        
+            <div class="col-md-3 col-xs-6">
+                <div class="center">
+                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team-member.jpg" alt="" ></p>
+                    <h5>David J. Robbins<small class="designation muted">Senior Vice President</small></h5>
+                    <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                </div>
+            </div>
+        </div><!--/#meet-the-team-->
+
+
     </section><!--/#recent-works-->
 
      <section id="bottom" class="wet-asphalt">
