@@ -131,8 +131,8 @@
                             <i class="icon-twitter icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Twitter Marketing</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            <h3 class="media-heading">Health & Nutrition</h3>
+                            <p>We provide robust health and nutrition benefits to the children coming from the most marginalised communities..</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -142,8 +142,8 @@
                             <i class="icon-facebook icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Facebook Marketing</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            <h3 class="media-heading">Education</h3>
+                            <p>We help children with limited means get access to quality education, with a focus on vulnerable.</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -153,8 +153,8 @@
                             <i class="icon-google-plus icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Google Plus Marketing</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            <h3 class="media-heading">Child Protection</h3>
+                            <p>All children have the right to a healthy, happy and fulfilling life. Donate Money & Support Charity to Keep children safe & free from harm.</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
