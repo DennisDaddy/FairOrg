@@ -115,7 +115,7 @@
 
                                 <p align="justify"><?php echo $blog_content; ?></p>
 
-                                <p align="right"> <a href="blogpages.php?id=<?php echo $blog_id; ?>" class="btn btn-primary readmore">// Read More &gt;<i class="fa fa-angle-right"></i></a></p>
+                                <p align="right"> <a href="jobpages.php?id=<?php echo $blog_id; ?>" class="btn btn-primary readmore">// Read More &gt;<i class="fa fa-angle-right"></i></a></p>
                                 <hr>
 
 
