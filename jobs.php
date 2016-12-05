@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Donate | FAIR</title>
+    <title>Jobs | FAIR</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -34,7 +34,7 @@
                 <a class="navbar-brand" href="index.php"><img src="images/logo.png" height="60" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse">
-                 <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                     <li><a href="about-us.php"><i class="fa fa-user-secret" aria-hidden="true"></i> About Us</a></li>
                     <li><a href="donate.php"><i class="fa fa-gift" aria-hidden="true"></i> Donate</a></li>
@@ -57,38 +57,123 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h1>Donate</h1>
-                    
+                    <h1>Jobs</h1>
+                   
                 </div>
                 <div class="col-sm-6">
                     <ul class="breadcrumb pull-right">
                         <li><a href="index.php">Home</a></li>
-                        
-                        <li class="active">Donate</li>
+                        <li  class="active">Jobs</li>
                     </ul>
                 </div>
             </div>
         </div>
-    </section><!--/#title-->    
+    </section><!--/#title-->     
 
-    <section id="terms" class="container">
-        <h3>Introduction</h3>
-        <p>For decades ,FAIR has been working with the most disadvantaged children to provide them better healthcare, education opportunities and protection from physical and mental exploitation. In Kenya we go right in the middle of the poorest communities with our development projects and help children be children. We rid them from the clutches of malnutrition, send them to schools, help pregnant women deliver safe, pull children out of child labour – all with an aim to give children a happy childhood. It is because of the hundreds and thousands of generous donors that we have been able to pull it so far. We need your continued support to enable us to continue with our work with the same vigour and passion. <br>
-        Make lasting change in a child's life through nutrition, health, education and more - all for less than $1 a day.(Make a Memorial Gift)Honor a loved one’s legacy by making a gift in their memory to support hope for a brighter future for all children.or you can visit us in our physical location at GIDDO PLAZA, Nakuru county Girls and boys are counting on you to support our mission and donate for children. Save the Children works in the world’s most vulnerable places, from America to Kenya – saving one child at a time. And we can’t do it without you. There are so many ways to give to Save the Children.</p>
-        <hr>
+   <section id="blog" class="container">
+        <div class="blog">
+            <div class="row">
+                 <div class="col-md-8">
+                    <div class="blog-item">
+                        <div class="row">
+                                                            
+                            <div class="col-xs-12 col-sm-12 blog-content">
+                                
+                                <?php
+                            include("includes/connect.php");
 
-        <p>&nbsp;</p>
+                            $select_posts ="select * from blog order by rand() LIMIT 0,4";
 
-        <h3>Ways to Donate</h3>
-        <ul>
-        <li>Donate Through our Corpoarate</li>
-        <li> Support Gift Planning Donation</li>
-        <li> Goods Sponsor at Event</li>    
-        </ul>
-        <hr>
-    </section><!--/#terms-->
+                            $run_posts =mysqli_query($con,$select_posts);
 
-     <section id="bottom" class="wet-asphalt">
+                            while ($row=mysqli_fetch_array($run_posts)) {
+                                $blog_id =$row['blog_id'];
+                                $blog_title =$row['blog_title'];
+                                $blog_date =$row['blog_date'];
+                                $blog_author =$row['blog_author'];
+                                $blog_image =$row['blog_image'];
+                                $blog_content =substr($row['blog_content'],0,500);
+                                
+
+
+
+                            ?>
+                                
+                                <h2> 
+                                    <a href="blogpages.php?id=<?php echo $blog_id; ?>">
+                                      <?php echo $blog_title; ?>
+                                    </a>
+                                </h2>
+
+                                <p>Published On: <b><?php echo $blog_date; ?></b></p>
+                                <p><i></i> <span>By: <b><?php echo $blog_author; ?></b></span></p>
+
+                                    <div id="single_post">                                
+                                         <img  src="images2/uploads/<?php echo $blog_image; ?>" width="100%" height="450" />
+                                    </div>
+                                 
+
+                                <p align="justify"><?php echo $blog_content; ?></p>
+
+                                <p align="right"> <a href="blogpages.php?id=<?php echo $blog_id; ?>" class="btn btn-primary readmore">// Read More &gt;<i class="fa fa-angle-right"></i></a></p>
+                                <hr>
+
+
+                                <?php } ?>
+
+                            </div>
+                        </div>    
+                    </div><!--/.blog-item-->
+                        
+                </div><!--/.col-md-8-->
+
+                <aside class="col-md-4">
+                    <div class="widget search">
+                        <form role="form">
+                            <input type="text" class="form-control search_box" autocomplete="off" placeholder="Search Here">
+                        </form>
+                    </div><!--/.search-->
+                    
+                    <div class="widget categories">
+                        <h3 style="color: #d9534f;">Recent Blog</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="single_comments">
+                                <?php
+                include("includes/connect.php");
+            
+                $query = "select * from blog order by 1 DESC LIMIT 0,3";
+            
+                $run =mysqli_query($con,$query);
+            
+            while ($row=mysqli_fetch_array($run)) {
+            
+                $blog_id =$row['blog_id'];
+                $title =$row['blog_title'];
+                $image =$row['blog_image'];
+               
+                ?>
+                <a href="blogpages.php?id=<?php echo $blog_id; ?>">
+                 <p><?php echo $title; ?></p></a>
+                               <div id="single_post"> 
+                                   <img width="140" height="100" <img src='images2/uploads/<?php echo $image; ?>' >
+                                </div>
+                                       
+                                <p class="post-date"><b><?php echo $blog_date; ?></b></p>
+                                 <?php } ?>
+
+                                </div>
+                                
+                            </div>
+                        </div>                     
+                    </div><!--/.recent comments-->
+                           
+                </aside>  
+            </div><!--/.row-->
+        </div>
+    </section><!--/#blog-->
+
+ <section id="bottom" class="wet-asphalt">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
@@ -179,8 +264,8 @@
             </div>
         </div>
     </section><!--/#bottom-->
-
-   <footer id="footer" class="midnight-blue">
+    
+<footer id="footer" class="midnight-blue">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">

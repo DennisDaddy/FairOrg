@@ -31,7 +31,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" height="60" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -43,7 +43,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-address-book-o" aria-hidden="true"></i> Careers <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="career.php"><i class="fa fa-certificate" aria-hidden="true"></i> Career</a></li>
-                            <li><a href="blog-item.php"><i class="fa fa-gavel" aria-hidden="true"></i> Jobs</a></li>
+                            <li><a href="jobs.php"><i class="fa fa-gavel" aria-hidden="true"></i> Jobs</a></li>
                         </ul>
                     </li>
                     <li><a href="blog.php"><i class="fa fa-pencil" aria-hidden="true"></i> Blog</a></li> 
