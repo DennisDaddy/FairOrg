@@ -58,13 +58,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h1 style="color: #D4AF37;">Blog</h1>
+                    <h1>Blog</h1>
                    
                 </div>
                 <div class="col-sm-6">
                     <ul class="breadcrumb pull-right">
-                        <li><a style="color: #D4AF37;" href="index.php">Home</a></li>
-                        <li style="color: #D4AF37;" class="active">Blog</li>
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active">Blog</li>
                     </ul>
                 </div>
             </div>
@@ -139,7 +139,7 @@
                     </div><!--/.search-->
                     
                     <div class="widget categories">
-                        <h3 style="color: #d9534f;">Recent Blog</h3>
+                        <h3>Recent Blog</h3>
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="single_comments">
