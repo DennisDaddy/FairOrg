@@ -71,21 +71,49 @@
         </div>
     </section><!--/#title-->    
 
-    <section id="terms" class="container">
-        <h3>Introduction</h3>
-        <p>For decades ,FAIR has been working with the most disadvantaged children to provide them better healthcare, education opportunities and protection from physical and mental exploitation. In Kenya we go right in the middle of the poorest communities with our development projects and help children be children. We rid them from the clutches of malnutrition, send them to schools, help pregnant women deliver safe, pull children out of child labour – all with an aim to give children a happy childhood. It is because of the hundreds and thousands of generous donors that we have been able to pull it so far. We need your continued support to enable us to continue with our work with the same vigour and passion. <br>
-        Make lasting change in a child's life through nutrition, health, education and more - all for less than $1 a day.(Make a Memorial Gift)Honor a loved one’s legacy by making a gift in their memory to support hope for a brighter future for all children.or you can visit us in our physical location at GIDDO PLAZA, Nakuru county Girls and boys are counting on you to support our mission and donate for children. Save the Children works in the world’s most vulnerable places, from America to Kenya – saving one child at a time. And we can’t do it without you. There are so many ways to give to Save the Children.</p>
-        <hr>
+    
+    <section id="about-us" class="container">
+        <div class="row">
+            <div class="col-sm-8">
+            <img src="images/blog/22.jpg" width="100%" height="600" />
+             </div><!--/.col-sm-6-->
+            <div class="col-sm-4">
+                
+                <div>
+                <h2><b>Awards</b></h2>
+                     <p><i>The following are awards and nominations Usama has received throught his career.</i></p>
+                                <h3><b>Winner:</b></h3>
 
-        <p>&nbsp;</p>
+                                    <h4><b>Young Achievers Awards</b> –<i>Young Achiever in Film and Television 2011</i> </h4>
+                                   
+                                    <h4><b>Movie Furnace Program</b> – <i>Best Director 'In Just Hours'    2013  </i></h4>
+                                    
+                                    <h3><b>Nominations:</b></h3>
+                                    <h4><b>MNFPAC Awards</b> - <i>Best Screenwriter; 'Hello'     2010</i></h4>
+                                    <h4><b>Luxor African Film Festival</b> – <i>Long Features; 'Bala Bala Sese'  2016 </i></h4>
 
-        <h3>Ways to Donate</h3>
-        <ul>
-        <li>Donate Through our Corpoarate</li>
-        <li> Support Gift Planning Donation</li>
-        <li> Goods Sponsor at Event</li>    
-        </ul>
+                                    <h4><b>Helsinki African Film Festival</b> – <i>Jury Award for Human Rights and Social Commentary. ‘Bala Bala Sese' 2016 </i> </h4>
+                                    <h4><b>Amakula Int’l Film Festival</b> – <i>Best African Film; 'Bala Bala Sese'  2016 </i></h4>
+                                     <h4><b>African Movie Academy Awards</b> – <i>Best Film in an African Language; 'Bala Bala Sese'           2016 </i></h4>
+                                   <h4><b>African International Film Festival</b> – <i>Best Film; 'Bala Bala Sese'     2016 </i> </h4>
+
+                    </div>
+                </div>
+            </div><!--/.col-sm-6-->
+        </div><!--/.row-->
+
         <hr>
+         <p align="right"><b>Lets connect on social media.</b> <br><br>
+                                        <a class="btn btn-social btn-facebook" href="https://www.facebook.com/OnlineUsama"><i class="icon-facebook"></i></a> 
+                                        <a class="btn btn-social btn-google-plus" href="https://plus.google.com/+UsamaMukwaya"><i class="icon-google-plus"></i></a> 
+                                        <a class="btn btn-social btn-twitter" href="https://twitter.com/usamamukwaya"><i class="icon-twitter"></i></a> 
+                                        <a class="btn btn-social btn-google-plus" href="https://plus.google.com/+UsamaMukwaya"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                        <a href="https://www.instagram.com/usamamukwaya/"><img src="images/ico/instagram.png">
+                                        <a href="http://www.imdb.com/name/nm5417451/"><img src="images/ico/imdb.png" width="35" height="35" >
+                                </p>
+
+       
+    </section><!--/#about-us-->
     </section><!--/#terms-->
 
      <section id="bottom" class="wet-asphalt">
