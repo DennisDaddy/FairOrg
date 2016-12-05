@@ -311,10 +311,12 @@
                 </div>
             </div>
         </div><!--/#meet-the-team-->
+        
         </div>
 
 
     </section><!--/#recent-works-->
+    <hr>
 
      <section id="bottom" class="wet-asphalt">
         <div class="container">
