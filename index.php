@@ -193,7 +193,7 @@
                                             <div class="item-inner">
                                                 <img class="img-responsive" src="images/portfolio/recent/1.jpg" alt="">
                                                 <h5>
-                                                    Nova - Corporate site template
+                                                    Educating and encouraging young girls on how they should take care of themselves from early pregnancy 
                                                 </h5>
                                                 <div class="overlay">
                                                     <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
@@ -206,7 +206,7 @@
                                             <div class="item-inner">
                                                 <img class="img-responsive" src="images/portfolio/recent/2.jpg" alt="">
                                                 <h5>
-                                                    Fornax - Apps site template
+                                                    Educating and encouraging young girls on how they should take care of themselves from early pregnancy 
                                                 </h5>
                                                 <div class="overlay">
                                                     <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/2.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
@@ -219,7 +219,7 @@
                                             <div class="item-inner">
                                                 <img class="img-responsive" src="images/portfolio/recent/3.jpg" alt="">
                                                 <h5>
-                                                    Flat Theme - Business Theme
+                                                    Educating and encouraging young girls on how they should take care of themselves from early pregnancy 
                                                 </h5>
                                                 <div class="overlay">
                                                     <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/3.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
@@ -236,7 +236,7 @@
                                             <div class="item-inner">
                                                 <img class="img-responsive" src="images/portfolio/recent/1.jpg" alt="">
                                                 <h5>
-                                                    Flat Theme - Business Theme
+                                                    Educating and encouraging young girls on how they should take care of themselves from early pregnancy 
                                                 </h5>
                                                 <div class="overlay">
                                                     <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
@@ -249,7 +249,7 @@
                                             <div class="item-inner">
                                                 <img class="img-responsive" src="images/portfolio/recent/2.jpg" alt="">
                                                 <h5>
-                                                    Nova - Corporate site template
+                                                    NovEducating and encouraging young girls on how they should take care of themselves from early pregnancy 
                                                 </h5>
                                                 <div class="overlay">
                                                     <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/2.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
@@ -262,7 +262,7 @@
                                             <div class="item-inner">
                                                 <img class="img-responsive" src="images/portfolio/recent/3.jpg" alt="">
                                                 <h5>
-                                                    Fornax - Apps site template
+                                                    FoEducating and encouraging young girls on how they should take care of themselves from early pregnancy 
                                                 </h5>
                                                 <div class="overlay">
                                                     <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/3.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
