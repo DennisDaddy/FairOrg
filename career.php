@@ -61,8 +61,7 @@
         <div class="col-sm-6">
           <ul class="breadcrumb pull-right">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Pages</a></li>
-            <li class="active">Career</li>
+            <li class="active">Careers</li>
           </ul>
         </div>
       </div>
