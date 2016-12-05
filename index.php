@@ -280,7 +280,7 @@
         <h3><b>Our Partners</b></h3>
             <div class="col-md-3 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/partners/1.jpg"  width="140" alt="" ></p>
+                    <p><img class="img-responsive img-thumbnail img-square" src="images/partners/1.jpg"  width="140" alt="" ></p>
                     <h5>David J. Robbins<small class="designation muted">Senior Vice President</small></h5>
                     <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
                     <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
@@ -289,7 +289,7 @@
 
             <div class="col-md-3 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/partners/2.jpg" width="140" alt="" ></p>
+                    <p><img class="img-responsive img-thumbnail img-square" src="images/partners/2.jpg" width="140" alt="" ></p>
                     <h5>David J. Robbins<small class="designation muted">Senior Vice President</small></h5>
                     <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
                     <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
@@ -297,7 +297,7 @@
             </div>        
             <div class="col-md-3 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/partners/3.jpg" width="140" alt="" ></p>
+                    <p><img class="img-responsive img-thumbnail img-square" src="images/partners/3.jpg" width="140" alt="" ></p>
                     <h5>David J. Robbins<small class="designation muted">Senior Vice President</small></h5>
                     <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
                     <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
@@ -305,7 +305,7 @@
             </div>        
             <div class="col-md-3 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/partners/4.jpg" width="140" alt="" ></p>
+                    <p><img class="img-responsive img-thumbnail img-square" src="images/partners/4.jpg" width="140" alt="" ></p>
                     <h5>David J. Robbins<small class="designation muted">Senior Vice President</small></h5>
                     <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
                     <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
