@@ -276,11 +276,11 @@
                     </div>
                 </div>
             </div><!--/.row-->
-             <hr>
-
+             
         <div class="gap"></div>
         
         <div class="gap"></div>
+        <hr>
 
         <div id="meet-the-team" class="row">
         <h3 style="color:#ff0000; font-family:'Debevic Circular', serif; font-weight:600;"><b>Our Partners</b></h3>
