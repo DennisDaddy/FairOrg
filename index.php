@@ -65,8 +65,10 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Powerful and Responsive Web Design</h2>
-                                    <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                    <h1 class="boxed animation animated-item-1">Lets All Donate</h1>
+                                    <p class="boxed animation animated-item-2">Individuals donations make up a vital part of FAIR funding..</p>
+                                    <br>
+                                    <a class="btn btn-md  boxed animation animated-item-2" href="#">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -77,8 +79,8 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="carousel-content center centered">
-                                    <h1 class="boxed animation animated-item-1">Access To Quality Education</h1>
-                                    <p class="boxed animation animated-item-2">We help children with limited means get access to quality education.</p>
+                                    <h2 class="boxed animation animated-item-1">Community Economic Strengthening</h2>
+                                    <p class="boxed animation animated-item-2">We enhances the capacity of the local people within Nakuru County to depend on themselves...</p>
                                     <br>
                                     <a class="btn btn-md  boxed animation animated-item-2" href="#">Learn More</a>
                                 </div>
@@ -91,9 +93,10 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Powerful and Responsive Web Design Theme</h2>
-                                    <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
-                                    <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
+                                    <h1 class="boxed animation animated-item-1">Access To Quality Education</h1>
+                                    <p class="boxed animation animated-item-2">We help children with limited means get access to quality education.</p>
+                                    <br>
+                                    <a class="btn btn-md  boxed animation animated-item-2" href="#">Learn More</a>
                                 </div>
                             </div>
                         </div>
