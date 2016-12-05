@@ -77,8 +77,8 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="carousel-content center centered">
-                                    <h2 class="boxed animation animated-item-1">Clean, Crisp, Powerful and Responsive Web Design</h2>
-                                    <p class="boxed animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                    <h1 class="boxed animation animated-item-1">Access To Quality Education</h1>
+                                    <p class="boxed animation animated-item-2">We help children with limited means get access to quality education.</p>
                                     <br>
                                     <a class="btn btn-md  boxed animation animated-item-2" href="#">Learn More</a>
                                 </div>
