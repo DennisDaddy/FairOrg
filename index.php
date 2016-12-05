@@ -161,14 +161,16 @@
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
+
        
           </section><!--/# end terms-->
 
+
            </div>
         </div>
-
+        
     </section><!--/#services-->
-
+    <hr>
     <section id="recent-works">
         <div class="container">
             <div class="row">
@@ -274,6 +276,7 @@
                     </div>
                 </div>
             </div><!--/.row-->
+             <hr>
 
         <div class="gap"></div>
         
