@@ -121,7 +121,7 @@
         <p>Welcome to my abracadabra world! Growing up in a humble, religious family and environment has given me all the possibilities in life to creatively put myself out. I haven’t gotten so far as I need to but to the expedition I have traveled, I am greatly thankful to the almighty for the chance to work and associate with some of the world’s finest personalities. I also am gratified to the exceptional beings that have helped me shove through. I am devoted humanity and to me there is no more to its narrative than the days we live to smile and breath. The moments you realize you had to live by someone, with someone and the always unimaginative; for someone. I love writing and I adore deeply art! It’s not so far that I have started this journey but with poise I would like to try and explore the humankind through storytelling, from the tender tales of real life to the spooky world of fiction.
         Lots of love. </p>  
         <hr>
-        <h1 align="center"> How We Help </h1>
+        <h3 align="center" style="color:#000000; font-family:'Debevic Circular', serif; font-weight:600;"> How We Help </h3>
             <br>
 
         <div class="row">
