@@ -103,15 +103,7 @@
         </div><!--/.row-->
 
         <hr>
-         <p align="right"><b>Lets connect on social media.</b> <br><br>
-                                        <a class="btn btn-social btn-facebook" href="https://www.facebook.com/OnlineUsama"><i class="icon-facebook"></i></a> 
-                                        <a class="btn btn-social btn-google-plus" href="https://plus.google.com/+UsamaMukwaya"><i class="icon-google-plus"></i></a> 
-                                        <a class="btn btn-social btn-twitter" href="https://twitter.com/usamamukwaya"><i class="icon-twitter"></i></a> 
-                                        <a class="btn btn-social btn-google-plus" href="https://plus.google.com/+UsamaMukwaya"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                                        <a href="https://www.instagram.com/usamamukwaya/"><img src="images/ico/instagram.png">
-                                        <a href="http://www.imdb.com/name/nm5417451/"><img src="images/ico/imdb.png" width="35" height="35" >
-                                </p>
-
+         
        
     </section><!--/#about-us-->
     </section><!--/#terms-->
