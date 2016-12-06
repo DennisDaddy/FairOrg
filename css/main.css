@@ -284,7 +284,7 @@ body > section {
   background-color: #bdc3c7;
 }
 .wet-asphalt {
-  background-color: #34495e;
+  background-color: #000;
 }
 .wet-asphalt a:not(.btn) {
   color: #bdc3c7;
@@ -293,7 +293,7 @@ body > section {
   color: #d9534f;
 }
 .midnight-blue {
-  background-color: #000000;
+  background-color: #000;
 }
 .concrete {
   background-color: #95a5a6;
