@@ -331,13 +331,13 @@
                     <h4>Our Company</h4>
                     <div>
                         <ul class="arrow">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Donate</a></li>
-                            <li><a href="#">Get Involved</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Jobs</a></li>
-                            <li><a href="#">Blog</a></li>
-                             <li><a href="#">Contact Us</a></li>
+                            <li><a href="about-us">About Us</a></li>
+                            <li><a href="donate">Donate</a></li>
+                            <li><a href="involved">Get Involved</a></li>
+                            <li><a href="career">Careers</a></li>
+                            <li><a href="jobs">Jobs</a></li>
+                            <li><a href="blog">Blog</a></li>
+                             <li><a href="contact">Contact Us</a></li>
                            
                         </ul>
                     </div>
