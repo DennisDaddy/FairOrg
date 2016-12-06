@@ -244,13 +244,13 @@
                     <h4>Our Company</h4>
                     <div>
                         <ul class="arrow">
-                            <li><a href="about-us">About Us</a></li>
-                            <li><a href="donate">Donate</a></li>
-                            <li><a href="involved">Get Involved</a></li>
-                            <li><a href="career">Careers</a></li>
-                            <li><a href="jobs">Jobs</a></li>
-                            <li><a href="blog">Blog</a></li>
-                             <li><a href="contact">Contact Us</a></li>
+                            <li><a href="about-us.php">About Us</a></li>
+                            <li><a href="donate.php">Donate</a></li>
+                            <li><a href="involved.php">Get Involved</a></li>
+                            <li><a href="career.php">Careers</a></li>
+                            <li><a href="jobs.php">Jobs</a></li>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="contact-us.php">Contact Us</a></li>
                            
                         </ul>
                     </div>
