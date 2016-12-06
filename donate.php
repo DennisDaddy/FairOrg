@@ -35,7 +35,7 @@
             </div>
             <div class="collapse navbar-collapse">
                  <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                    <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                     <li><a href="about-us.php"><i class="fa fa-user-secret" aria-hidden="true"></i> About Us</a></li>
                     <li><a href="donate.php"><i class="fa fa-gift" aria-hidden="true"></i> Donate</a></li>
                     <li><a href="involved.php"><i class="fa fa-connectdevelop" aria-hidden="true"></i> Get Involved</a></li>
