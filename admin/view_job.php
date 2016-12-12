@@ -173,33 +173,31 @@
 
 <?php 
 include("includes/connect.php");
-$query = "select * from blog order by 1 DESC";
+$query = "select * from jobs order by 1 DESC";
 $run = mysqli_query($con,$query);
 while ($row=mysqli_fetch_array($run)) {
-	# code...
-	$blog_id =$row['blog_id'];
-	$blog_date =$row['blog_date'];
-	$blog_author =$row['blog_author'];
-	$blog_title =$row['blog_title'];
-	$blog_image =$row['blog_image'];
-	$blog_content =substr($row['blog_content'],0,50);
-	
+  # code...
+  $job_id =$row['job_id'];
+  $job_title =$row['job_title'];
+  $job_location =$row['job_location'];
+  $job_requirement =$row['job_requirement'];
+  $job_description =substr($row['job_description'],0,100);
+  
 
 ?>
 
 <tr align="center" > 
-	<td><?php echo $blog_id; ?></td>
-	<td><?php echo $blog_date; ?></td>
-	<td><?php echo $blog_author; ?></td>
-	<td><?php echo $blog_title; ?></td>
-	<td><img src="../images2/uploads/<?php echo $blog_image; ?>"width="80" height="80" </td>
-	<td><?php echo $blog_content; ?></td>
-	<td><a href="deleteblog.php?dele=<?php echo $blog_id; ?>">Delete</a></td>
-	
-	
+  <td><?php echo $job_id; ?></td>
+  <td><?php echo $job_title; ?></td>
+  <td><?php echo $job_location; ?></td>
+  <td><?php echo $job_requirement; ?></td>
+  <td><?php echo $job_description; ?></td>
+  <td><a href="deletejob.php?dele=<?php echo $job_id; ?>">Delete</a></td>
+  <td><a href="edit_posts.php?edit=<?php echo $job_id; ?>">Edit</a></td>
+  
 </tr> 
 <?php } ?>
-	
+  
 </table>
 </div>
 
