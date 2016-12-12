@@ -79,43 +79,44 @@
                                                             
                             <div class="col-xs-12 col-sm-12 blog-content">
                                 
-                                <?php
-                            include("includes/connect.php");
+                               <?php
+include("includes/connect.php");
 
-                            $select_posts ="select * from blog order by rand() LIMIT 0,4";
+$select_posts ="select * from jobs order by rand() LIMIT 0,10";
 
-                            $run_posts =mysqli_query($con,$select_posts);
+$run_posts =mysqli_query($con,$select_posts);
 
-                            while ($row=mysqli_fetch_array($run_posts)) {
-                                $blog_id =$row['blog_id'];
-                                $blog_title =$row['blog_title'];
-                                $blog_date =$row['blog_date'];
-                                $blog_author =$row['blog_author'];
-                                $blog_image =$row['blog_image'];
-                                $blog_content =substr($row['blog_content'],0,500);
-                                
+while ($row=mysqli_fetch_array($run_posts)) {
+    # code...
+    $job_id =$row['job_id'];
+    $job_title = $row['job_title'];
+    $job_location =$row['job_location'];
+    $job_date = $row['job_date'];
+    $job_requirement =$row['job_requirement'];
+    $job_description =substr($row['job_description'],0,200);
+    
 
 
 
-                            ?>
+?>
                                 
                                 <h2> 
-                                    <a href="blogpages.php?id=<?php echo $blog_id; ?>">
-                                      <?php echo $blog_title; ?>
+                                    <a href="jobpages.php?id=<?php echo $job_id; ?>">
+                                      <?php echo $job_title; ?>
                                     </a>
                                 </h2>
 
-                                <p>Published On: <b><?php echo $blog_date; ?></b></p>
-                                <p><i></i> <span>By: <b><?php echo $blog_author; ?></b></span></p>
+                                <p>Published On: <b><?php echo $job_date; ?></b></p>
+                               
 
                                     <div id="single_post">                                
-                                         <img  src="images2/uploads/<?php echo $blog_image; ?>" width="100%" height="450" />
+                                        
                                     </div>
                                  
 
-                                <p align="justify"><?php echo $blog_content; ?></p>
+                                <p align="justify"><?php echo $job_description; ?></p>
 
-                                <p align="right"> <a href="jobpages.php?id=<?php echo $blog_id; ?>" class="btn btn-primary readmore">// Read More &gt;<i class="fa fa-angle-right"></i></a></p>
+                                <p align="right"> <a href="jobpages.php?id=<?php echo $job_id; ?>" class="btn btn-primary readmore">// Read More &gt;<i class="fa fa-angle-right"></i></a></p>
                                 <hr>
 
 
