@@ -114,15 +114,15 @@
                   </li>
 
                   <li>
-                      <a class="" href="insert_blog.php">
+                      <a class="" href="insert_job.php">
                           <i class="fa fa-plus" aria-hidden="true"></i>
-                          <span>Add Press</span>
+                          <span>Add Job</span>
                       </a>
                   </li>
                   <li>                     
-                      <a class="" href="view_blog.php">
+                      <a class="" href="view_job.php">
                           <i class="fa fa-eye" aria-hidden="true"></i>
-                          <span>View Press</span>
+                          <span>View Job</span>
                           
                       </a>
                                          
