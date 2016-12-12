@@ -219,14 +219,11 @@
             
                 $post_id =$row['post_id'];
                 $title =$row['post_title'];
-               
-                $post_date = $row['post_date'];
-
-               
+                $post_date = $row['post_date'];               
                 ?>
+
                 <a href="blogpages.php?id=<?php echo $post_id; ?>">
-                 <p><?php echo $title; ?></p></a>
-                               
+                 <p><?php echo $title; ?></p></a>                            
                                        
                                 <p class="post-date"><b><?php echo $post_date; ?></b></p>
                                  <?php } ?>
