@@ -112,7 +112,7 @@ while ($row=mysqli_fetch_array($run_query)) {
 
 <p align="left">Published On:<b><?php echo $post_date; ?></b></p>
 <p align="right">Published By:<b><?php echo $post_author; ?></b></p>
-<center><img src="images/uploads/<?php echo $post_image; ?>" width="500" height="400" /></center>
+<center><img src="images2/uploads/<?php echo $post_image; ?>" width="500" height="400" /></center>
 <p align="justify"><?php echo $post_content; ?></p>
 
 
@@ -155,7 +155,7 @@ while ($row=mysqli_fetch_array($run_query)) {
                 <a href="blogpages.php?id=<?php echo $post_id; ?>">
                  <p><?php echo $title; ?></p></a>
                                <div id="single_post"> 
-                                   <img width="140" height="100" <img src='images2/uploads/<?php echo $image; ?>' >
+                                   <img width="140" height="100" src='images2/uploads/<?php echo $image; ?>' >
                                 </div>
                                        
                                 <p class="post-date"><b><?php echo $post_date; ?></b></p>
