@@ -80,29 +80,28 @@
                                                             
                             <div class="col-xs-12 col-sm-12 blog-content">
                                 
-                                <?php
-                            include("includes/connect.php");
+                                 <?php
+                                include("includes/connect.php");
 
-                            if (isset($_GET['id'])) {
-                                # code...
-                                $page_id =$_GET['id'];
-                                $select_query = "select * from blog where blog_id='$page_id'";
-                            }
-                            $run_query =mysqli_query($con,$select_query);
+                                if (isset($_GET['id'])) {
+                                    # code...
+                                    $page_id =$_GET['id'];
+                                    $select_query = "select * from jobs where job_id='$page_id'";
+                                }
 
-                            while ($row=mysqli_fetch_array($run_query)) {
-                                # code...
-                                $blog_id =$row['blog_id'];
-                                $blog_title =$row['blog_title'];
-                                $blog_date =$row['blog_date'];
-                                $blog_author =$row['blog_author'];
-                                $blog_image =$row['blog_image'];
-                                $blog_content =$row['blog_content'];
-                                
+                                $run_query =mysqli_query($con,$select_query);
 
+                                while ($row=mysqli_fetch_array($run_query)) {
+                                    # code...
+                                    $job_id =$row['job_id'];
+                                    $job_title =$row['job_title'];
+                                    $job_date =$row['job_date'];
+                                    $job_location = $row['job_location'];
+                                    $job_requirement =$row['job_requirement'];
+                                    $job_description =$row['job_description'];
 
+                                ?>
 
-                         ?>
                                 
                                 <h2> 
                                     <a href="blogpages.php?id=<?php echo $blog_id; ?>">
