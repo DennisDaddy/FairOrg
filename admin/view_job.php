@@ -100,15 +100,15 @@
                   
           
                   <li>
-                      <a class="" href="insert_blog.php">
+                      <a class="" href="insert_post.php">
                           <i class="fa fa-plus" aria-hidden="true"></i>
-                          <span>Add Blog Posts</span>
+                          <span>Add Blog </span>
                       </a>
                   </li>
                   <li>                     
-                      <a class="" href="view_blog.php">
+                      <a class="" href="view_post.php">
                           <i class="fa fa-eye" aria-hidden="true"></i>
-                          <span>View Blog Post</span>
+                          <span>View Blog </span>
                           
                       </a>
                                          
@@ -151,13 +151,13 @@
          
           <ol class="breadcrumb">
             <li><i class="fa fa-home"></i><a href="index.php">Home</a></li>
-            <li><i class="fa fa-laptop"></i>View All Posts</li> 
+            <li><i class="fa fa-laptop"></i>View All Jobs</li> 
             </ol>               
 
 <div class="table-responsive"> 
 <table class="table" >
 <tr>
-	<td colspan="8" align="center" bgcolor="white"><h1>View All Blog Posts</h1></td>
+	<td colspan="8" align="center" bgcolor="white"><h1>View All Job Posts</h1></td>
 </tr>
 
 <tr bgcolor="orange">
