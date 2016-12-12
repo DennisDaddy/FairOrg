@@ -106,7 +106,7 @@
                       </a>
                   </li>
                   <li>                     
-                      <a class="" href="view_post.php">
+                      <a class="" href="view_posts.php">
                           <i class="fa fa-eye" aria-hidden="true"></i>
                           <span>View Blog </span>
                           
