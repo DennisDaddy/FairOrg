@@ -103,45 +103,32 @@
                           <span>Dashboard</span>
                       </a>
                   </li>
-				  <li class="sub-menu">
-                      <a href="view_posts.php" class="">
-                          <i class="fa fa-eye" aria-hidden="true"></i>
-                          <span>View News</span>
-                          </a>                      
-                  </li>       
-                  <li class="sub-menu">
-                      <a href="insert_post.php" class="">
-                          <i class="fa fa-plus" aria-hidden="true"></i>
-                          <span>Add News</span>
-                         
-                      </a>
-                      
-                  </li>
+				 
                   <li>
-                      <a class="" href="insert_blog.php">
+                      <a class="" href="insert_post.php">
                           <i class="fa fa-plus" aria-hidden="true"></i>
-                          <span>Add Blog Posts</span>
+                          <span>Add Blog</span>
                       </a>
                   </li>
                   <li>                     
-                      <a class="" href="view_blog.php">
+                      <a class="" href="view_post.php">
                           <i class="fa fa-eye" aria-hidden="true"></i>
-                          <span>View Blog Post</span>
+                          <span>View Blog</span>
                           
                       </a>
                                          
                   </li>
 
                   <li>
-                      <a class="" href="insert_press.php">
+                      <a class="" href="insert_job.php">
                           <i class="fa fa-plus" aria-hidden="true"></i>
-                          <span>Add Press</span>
+                          <span>Add Job</span>
                       </a>
                   </li>
                   <li>                     
-                      <a class="" href="view_press.php">
+                      <a class="" href="view_job.php">
                           <i class="fa fa-eye" aria-hidden="true"></i>
-                          <span>View Press</span>
+                          <span>View Job</span>
                           
                       </a>
                                          
@@ -169,7 +156,7 @@
          
           <ol class="breadcrumb">
             <li><i class="fa fa-home"></i><a href="index.php">Home</a></li>
-            <li><i class="fa fa-laptop"></i>View All Posts</li> 
+            <li><i class="fa fa-laptop"></i>Insert New Blog</li> 
             </ol>   
 
 
@@ -180,7 +167,7 @@
 	<table  width="600" align="center" border="3"  >
 	 <tbody> 
 	<tr>
-		<td align="center" bgcolor="white" colspan="6"><h1>Insert New Post Here</h1></td>
+		<td align="center" bgcolor="white" colspan="6"><h1>Insert New Blog Here</h1></td>
 	</tr>
 
 	<tr>
