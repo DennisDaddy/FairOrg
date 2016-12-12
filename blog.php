@@ -79,43 +79,47 @@
                                                             
                             <div class="col-xs-12 col-sm-12 blog-content">
                                 
-                                <?php
-                            include("includes/connect.php");
+                                               <?php
+include("includes/connect.php");
 
-                            $select_posts ="select * from blog order by rand() LIMIT 0,4";
+$select_posts ="select * from posts order by rand() LIMIT 0,4";
 
-                            $run_posts =mysqli_query($con,$select_posts);
+$run_posts =mysqli_query($con,$select_posts);
 
-                            while ($row=mysqli_fetch_array($run_posts)) {
-                                $blog_id =$row['blog_id'];
-                                $blog_title =$row['blog_title'];
-                                $blog_date =$row['blog_date'];
-                                $blog_author =$row['blog_author'];
-                                $blog_image =$row['blog_image'];
-                                $blog_content =substr($row['blog_content'],0,500);
-                                
+while ($row=mysqli_fetch_array($run_posts)) {
+    # code...
+    $post_id =$row['post_id'];
+    $post_title =$row['post_title'];
+    $post_date =$row['post_date'];
+    $post_author =$row['post_author'];
+    $post_image =$row['post_image'];
+    $post_content =substr($row['post_content'],0,200);
+    
 
 
 
-                            ?>
-                                
+?>
+      
+
+
                                 <h2> 
-                                    <a href="blogpages.php?id=<?php echo $blog_id; ?>">
-                                      <?php echo $blog_title; ?>
-                                    </a>
-                                </h2>
+<a href="pages.php?id=<?php echo $post_id; ?>">
+<?php echo $post_title; ?>
+</a>
+</h2>
+<p align="left">Published On:<b><?php echo $post_date; ?></b></p>
 
-                                <p>Published On: <b><?php echo $blog_date; ?></b></p>
-                                <p><i></i> <span>By: <b><?php echo $blog_author; ?></b></span></p>
+                               
+                                <p><i></i> <span>By: <b><?php echo $post_author; ?></b></span></p>
 
                                     <div id="single_post">                                
-                                         <img  src="images2/uploads/<?php echo $blog_image; ?>" width="100%" height="450" />
+                                         <img  src="images2/uploads/<?php echo $post_image; ?>" width="100%" height="450" />
                                     </div>
                                  
 
-                                <p align="justify"><?php echo $blog_content; ?></p>
+                                <p align="justify"><?php echo $post_content; ?></p>
 
-                                <p align="right"> <a href="blogpages.php?id=<?php echo $blog_id; ?>" class="btn btn-primary readmore">// Read More &gt;<i class="fa fa-angle-right"></i></a></p>
+                                <p align="right"> <a href="blogpages.php?id=<?php echo $post_id; ?>" class="btn btn-primary readmore">// Read More &gt;<i class="fa fa-angle-right"></i></a></p>
                                 <hr>
 
 
