@@ -107,8 +107,8 @@
                                     <a href="jobpages.php?id=<?php echo $job_id; ?>"><?php echo $job_title; ?></a>
                                 </h2>
 
-                                <p>Published On: <b><?php echo $blog_date; ?></b></p>
-                                <p><i></i> <span>By: <b><?php echo $blog_author; ?></b></span></p>
+                                <p>Published On: <b><?php echo $job_date; ?></b></p>
+                                
                                 <div id="single_post">                                 
                                     <img  src="images2/uploads/<?php echo $blog_image; ?>" width="100%" height="450"  />
                                     </div>
