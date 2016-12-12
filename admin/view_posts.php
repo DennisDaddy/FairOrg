@@ -101,7 +101,7 @@
 				      
                   
                   <li>
-                      <a class="" href="insert_blog.php">
+                      <a class="" href="insert_post.php">
                           <i class="fa fa-plus" aria-hidden="true"></i>
                           <span>Add Blog</span>
                       </a>
