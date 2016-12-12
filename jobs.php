@@ -80,25 +80,25 @@
                             <div class="col-xs-12 col-sm-12 blog-content">
                                 
                                <?php
-include("includes/connect.php");
+                                include("includes/connect.php");
 
-$select_posts ="select * from jobs order by rand() LIMIT 0,10";
+                                $select_posts ="select * from jobs order by rand() LIMIT 0,10";
 
-$run_posts =mysqli_query($con,$select_posts);
+                                $run_posts =mysqli_query($con,$select_posts);
 
-while ($row=mysqli_fetch_array($run_posts)) {
-    # code...
-    $job_id =$row['job_id'];
-    $job_title = $row['job_title'];
-    $job_location =$row['job_location'];
-    $job_date = $row['job_date'];
-    $job_requirement =$row['job_requirement'];
-    $job_description =substr($row['job_description'],0,200);
-    
+                                while ($row=mysqli_fetch_array($run_posts)) {
+                                    # code...
+                                    $job_id =$row['job_id'];
+                                    $job_title = $row['job_title'];
+                                    $job_location =$row['job_location'];
+                                    $job_date = $row['job_date'];
+                                    $job_requirement =$row['job_requirement'];
+                                    $job_description =substr($row['job_description'],0,200);
+                                    
 
 
 
-?>
+                                ?>
                                 
                                 <h2> 
                                     <a href="jobpages.php?id=<?php echo $job_id; ?>">
@@ -107,12 +107,7 @@ while ($row=mysqli_fetch_array($run_posts)) {
                                 </h2>
 
                                 <p>Published On: <b><?php echo $job_date; ?></b></p>
-                               
-
-                                    <div id="single_post">                                
-                                        
-                                    </div>
-                                 
+                                         
 
                                 <p align="justify"><?php echo $job_description; ?></p>
 
