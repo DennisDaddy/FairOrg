@@ -161,14 +161,13 @@
 </tr>
 
 <tr bgcolor="orange">
-	<th>blog No</th>
-	<th>blog Date</th>
-	<th>blog Author</th>
-	<th>blog Title</th>
-	<th>blog Image</th>
-	<th>blog Content</th>
-	<th>Delete blog</th>
-	<th>Edit blog</th>
+	<th>Job No</th>
+  <th>Job Title</th>
+  <th>Job Location</th>
+  <th>Job Requirement</th>
+  <th>Job Description</th>
+  <th>Delete Job</th>
+  <th>Edit Job</th>
 </tr> 
 
 <?php 
