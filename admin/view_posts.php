@@ -98,45 +98,33 @@
                           <span>Dashboard</span>
                       </a>
                   </li>
-				  <li class="sub-menu">
-                      <a href="view_posts.php" class="">
-                          <i class="fa fa-eye" aria-hidden="true"></i>
-                          <span>View News</span>
-                          </a>                      
-                  </li>       
-                  <li class="sub-menu">
-                      <a href="insert_post.php" class="">
-                          <i class="fa fa-plus" aria-hidden="true"></i>
-                          <span>Add News</span>
-                         
-                      </a>
-                      
-                  </li>
+				      
+                  
                   <li>
                       <a class="" href="insert_blog.php">
                           <i class="fa fa-plus" aria-hidden="true"></i>
-                          <span>Add Blog Posts</span>
+                          <span>Add Blog</span>
                       </a>
                   </li>
                   <li>                     
-                      <a class="" href="view_blog.php">
+                      <a class="" href="view_posts.php">
                           <i class="fa fa-eye" aria-hidden="true"></i>
-                          <span>View Blog Post</span>
+                          <span>View Blog</span>
                           
                       </a>
                                          
                   </li>
 
                   <li>
-                      <a class="" href="insert_press.php">
+                      <a class="" href="insert_job.php">
                           <i class="fa fa-plus" aria-hidden="true"></i>
-                          <span>Add Press</span>
+                          <span>Add Job</span>
                       </a>
                   </li>
                   <li>                     
-                      <a class="" href="view_press.php">
+                      <a class="" href="view_job.php">
                           <i class="fa fa-eye" aria-hidden="true"></i>
-                          <span>View Press</span>
+                          <span>View Job</span>
                           
                       </a>
                                          
