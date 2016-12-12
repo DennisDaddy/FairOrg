@@ -138,24 +138,26 @@
                                 <?php
                 include("includes/connect.php");
             
-                $query = "select * from blog order by 1 DESC LIMIT 0,3";
+                $query = "select * from posts order by 1 DESC LIMIT 0,3";
             
                 $run =mysqli_query($con,$query);
             
             while ($row=mysqli_fetch_array($run)) {
             
-                $blog_id =$row['blog_id'];
-                $title =$row['blog_title'];
-                $image =$row['blog_image'];
+                $post_id =$row['post_id'];
+                $title =$row['post_title'];
+                $image =$row['post_image'];
+                $post_date = $row['post_date'];
+
                
                 ?>
-                <a href="blogpages.php?id=<?php echo $blog_id; ?>">
+                <a href="blogpages.php?id=<?php echo $post_id; ?>">
                  <p><?php echo $title; ?></p></a>
                                <div id="single_post"> 
                                    <img width="140" height="100" <img src='images2/uploads/<?php echo $image; ?>' >
                                 </div>
                                        
-                                <p class="post-date"><b><?php echo $blog_date; ?></b></p>
+                                <p class="post-date"><b><?php echo $post_date; ?></b></p>
                                  <?php } ?>
 
                                 </div>
