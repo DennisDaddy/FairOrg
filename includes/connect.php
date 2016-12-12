@@ -1,4 +1,4 @@
 <?php
-$con=mysqli_connect("localhost","root","","mkwaya");
+$con=mysqli_connect("localhost","root","","news");
 
 ?>
