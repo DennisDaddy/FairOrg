@@ -157,7 +157,7 @@
          
           <ol class="breadcrumb">
             <li><i class="fa fa-home"></i><a href="index.php">Home</a></li>
-            <li><i class="fa fa-laptop"></i>View All Posts</li> 
+            <li><i class="fa fa-laptop"></i>Insert New Job</li> 
             </ol>   
 
 
@@ -168,7 +168,7 @@
 	<table  width="600" align="center" border="3"  >
 	 <tbody> 
 	<tr>
-		<td align="center" bgcolor="white" colspan="6"><h1>Insert New Post Here</h1></td>
+		<td align="center" bgcolor="white" colspan="6"><h1>Insert New Job Here</h1></td>
 	</tr>
 
 	<tr>
