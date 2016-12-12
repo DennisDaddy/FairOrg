@@ -80,34 +80,36 @@
                             <div class="col-xs-12 col-sm-12 blog-content">
                                 
                                                <?php
-include("includes/connect.php");
+                                    include("includes/connect.php");
 
-$select_posts ="select * from posts order by rand() LIMIT 0,4";
+                                    $select_posts ="select * from posts order by rand() LIMIT 0,4";
 
-$run_posts =mysqli_query($con,$select_posts);
+                                    $run_posts =mysqli_query($con,$select_posts);
 
-while ($row=mysqli_fetch_array($run_posts)) {
-    # code...
-    $post_id =$row['post_id'];
-    $post_title =$row['post_title'];
-    $post_date =$row['post_date'];
-    $post_author =$row['post_author'];
-    $post_image =$row['post_image'];
-    $post_content =substr($row['post_content'],0,200);
-    
-
-
-
-?>
-      
+                                    while ($row=mysqli_fetch_array($run_posts)) {
+                                        # code...
+                                        $post_id =$row['post_id'];
+                                        $post_title =$row['post_title'];
+                                        $post_date =$row['post_date'];
+                                        $post_author =$row['post_author'];
+                                        $post_image =$row['post_image'];
+                                        $post_content =substr($row['post_content'],0,200);
+                                        
 
 
-                                <h2> 
-<a href="pages.php?id=<?php echo $post_id; ?>">
-<?php echo $post_title; ?>
-</a>
-</h2>
-<p align="left">Published On:<b><?php echo $post_date; ?></b></p>
+
+                                    ?>
+                                          
+
+
+                                    <h2> 
+                                    <a href="pages.php?id=<?php echo $post_id; ?>">
+                                        <?php echo $post_title; ?>
+                                    </a>
+
+                                    </h2>
+                                    
+                                    <p align="left">Published On:<b><?php echo $post_date; ?></b></p>
 
                                
                                 <p><i></i> <span>By: <b><?php echo $post_author; ?></b></span></p>
