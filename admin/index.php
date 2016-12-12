@@ -101,13 +101,13 @@
                   <li>
                       <a class="" href="insert_blog.php">
                           <i class="fa fa-plus" aria-hidden="true"></i>
-                          <span>Add Blog Posts</span>
+                          <span>Add Blog </span>
                       </a>
                   </li>
                   <li>                     
                       <a class="" href="view_posts.php">
                           <i class="fa fa-eye" aria-hidden="true"></i>
-                          <span>View Blog Post</span>
+                          <span>View Blog </span>
                           
                       </a>
                                          
