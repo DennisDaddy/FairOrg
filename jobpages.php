@@ -109,12 +109,9 @@
 
                                 <p>Published On: <b><?php echo $job_date; ?></b></p>
                                 
-                                <div id="single_post">                                 
-                                    <img  src="images2/uploads/<?php echo $blog_image; ?>" width="100%" height="450"  />
-                                    </div>
-                                 
+                             
 
-                                <p align="justify"><?php echo $blog_content; ?></p>
+                                <p align="justify"><?php echo $job_description; ?></p>
 
                                 
                                 <hr>
