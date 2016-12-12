@@ -81,50 +81,43 @@
                             <div class="col-xs-12 col-sm-12 blog-content">
                                 
                                 <?php
-                            include("includes/connect.php");
+include("includes/connect.php");
 
-                            if (isset($_GET['id'])) {
-                                # code...
-                                $page_id =$_GET['id'];
-                                $select_query = "select * from blog where blog_id='$page_id'";
-                            }
-                            $run_query =mysqli_query($con,$select_query);
+if (isset($_GET['id'])) {
+    # code...
+    $page_id =$_GET['id'];
+    $select_query = "select * from posts where post_id='$page_id'";
+}
+$run_query =mysqli_query($con,$select_query);
 
-                            while ($row=mysqli_fetch_array($run_query)) {
-                                # code...
-                                $blog_id =$row['blog_id'];
-                                $blog_title =$row['blog_title'];
-                                $blog_date =$row['blog_date'];
-                                $blog_author =$row['blog_author'];
-                                $blog_image =$row['blog_image'];
-                                $blog_content =$row['blog_content'];
-                                
-
-
-
-                         ?>
-                                
-                                <h2> 
-                                    <a href="blogpages.php?id=<?php echo $blog_id; ?>">
-                                      <?php echo $blog_title; ?>
-                                    </a>
-                                </h2>
-
-                                <p>Published On: <b><?php echo $blog_date; ?></b></p>
-                                <p><i></i> <span>By: <b><?php echo $blog_author; ?></b></span></p>
-                                <div id="single_post">                                 
-                                    <img  src="images2/uploads/<?php echo $blog_image; ?>" width="100%" height="450"  />
-                                    </div>
-                                 
-
-                                <p align="justify"><?php echo $blog_content; ?></p>
-
-                                
-                                <hr>
+while ($row=mysqli_fetch_array($run_query)) {
+    # code...
+    $post_id =$row['post_id'];
+    $post_title =$row['post_title'];
+    $post_date =$row['post_date'];
+    $post_author =$row['post_author'];
+    $post_image =$row['post_image'];
+    $post_content =$row['post_content'];
+    
 
 
-                                <?php } ?>
 
+?>
+
+<h2> 
+<a href="pages.php?id=<?php echo $post_id; ?>">
+<?php echo $post_title; ?>
+</a>
+</h2>
+
+<p align="left">Published On:<b><?php echo $post_date; ?></b></p>
+<p align="right">Published By:<b><?php echo $post_author; ?></b></p>
+<center><img src="images/uploads/<?php echo $post_image; ?>" width="500" height="400" /></center>
+<p align="justify"><?php echo $post_content; ?></p>
+
+
+
+<?php }  ?>
                             </div>
                         </div>    
                     </div><!--/.blog-item-->
