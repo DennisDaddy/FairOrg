@@ -104,9 +104,7 @@
 
                                 
                                 <h2> 
-                                    <a href="blogpages.php?id=<?php echo $blog_id; ?>">
-                                      <?php echo $blog_title; ?>
-                                    </a>
+                                    <a href="jobpages.php?id=<?php echo $job_id; ?>"><?php echo $job_title; ?></a>
                                 </h2>
 
                                 <p>Published On: <b><?php echo $blog_date; ?></b></p>
