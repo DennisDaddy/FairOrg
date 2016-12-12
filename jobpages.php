@@ -58,13 +58,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h1>Blog</h1>
+                    <h1>Jobs</h1>
                    
                 </div>
                 <div class="col-sm-6">
                     <ul class="breadcrumb pull-right">
                         <li><a href="index.php">Home</a></li>
-                        <li  class="active">Blog</li>
+                        <li  class="active">Jobs</li>
                     </ul>
                 </div>
             </div>
