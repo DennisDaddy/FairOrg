@@ -33,6 +33,11 @@
     <link href="css/style-responsive.css" rel="stylesheet" />
 	<link href="css/xcharts.min.css" rel=" stylesheet">	
 	<link href="css/jquery-ui-1.10.4.min.css" rel="stylesheet">
+	<script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
+	<script>
+	    tinymce.init({selector:'textarea'});
+
+	</script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -41,7 +46,7 @@
     <![endif]-->
   </head>
 
- <body>
+  <body>
   <!-- container section start -->
   <section id="container" class="">
      
@@ -52,7 +57,7 @@
             </div>
 
             <!--logo start-->
-            <a href="index.html" class="logo">Admin<span class="lite">Area</span></a>
+            <a href="index.php" class="logo">Admin<span class="lite">Area</span></a>
             <!--logo end-->
 
             <div class="nav search-row" id="top_menu">
@@ -66,7 +71,7 @@
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="profile-ava">
-                                <img alt="" src="img/avatar3.png">
+                                 <img alt="" src="img/avatar3.png">
                             </span>
                             <span class="username">Admin</span>
                             <b class="caret"></b>
@@ -97,8 +102,21 @@
                           <i class="icon_house_alt"></i>
                           <span>Dashboard</span>
                       </a>
-                  
-          
+                  </li>
+				  <li class="sub-menu">
+                      <a href="view_posts.php" class="">
+                          <i class="fa fa-eye" aria-hidden="true"></i>
+                          <span>View News</span>
+                          </a>                      
+                  </li>       
+                  <li class="sub-menu">
+                      <a href="insert_post.php" class="">
+                          <i class="fa fa-plus" aria-hidden="true"></i>
+                          <span>Add News</span>
+                         
+                      </a>
+                      
+                  </li>
                   <li>
                       <a class="" href="insert_blog.php">
                           <i class="fa fa-plus" aria-hidden="true"></i>
@@ -114,16 +132,16 @@
                                          
                   </li>
 
-                   <li>
-                      <a class="" href="insert_job.php">
+                  <li>
+                      <a class="" href="insert_press.php">
                           <i class="fa fa-plus" aria-hidden="true"></i>
-                          <span>Add Job</span>
+                          <span>Add Press</span>
                       </a>
                   </li>
                   <li>                     
-                      <a class="" href="view_job.php">
+                      <a class="" href="view_press.php">
                           <i class="fa fa-eye" aria-hidden="true"></i>
-                          <span>View Job</span>
+                          <span>View Press</span>
                           
                       </a>
                                          
@@ -152,56 +170,53 @@
           <ol class="breadcrumb">
             <li><i class="fa fa-home"></i><a href="index.php">Home</a></li>
             <li><i class="fa fa-laptop"></i>View All Posts</li> 
-            </ol>               
+            </ol>   
 
-<div class="table-responsive"> 
-<table class="table" >
-<tr>
-	<td colspan="8" align="center" bgcolor="white"><h1>View All Blog Posts</h1></td>
-</tr>
 
-<tr bgcolor="orange">
-	<th>blog No</th>
-	<th>blog Date</th>
-	<th>blog Author</th>
-	<th>blog Title</th>
-	<th>blog Image</th>
-	<th>blog Content</th>
-	<th>Delete blog</th>
-	<th>Edit blog</th>
-</tr> 
+<body>
+<form method="post" action="insert_post.php" enctype="multipart/form-data">
 
-<?php 
-include("includes/connect.php");
-$query = "select * from blog order by 1 DESC";
-$run = mysqli_query($con,$query);
-while ($row=mysqli_fetch_array($run)) {
-	# code...
-	$blog_id =$row['blog_id'];
-	$blog_date =$row['blog_date'];
-	$blog_author =$row['blog_author'];
-	$blog_title =$row['blog_title'];
-	$blog_image =$row['blog_image'];
-	$blog_content =substr($row['blog_content'],0,50);
-	
+    <div class="table-responsive"> 
+	<table  width="600" align="center" border="3"  >
+	 <tbody> 
+	<tr>
+		<td align="center" bgcolor="white" colspan="6"><h1>Insert New Post Here</h1></td>
+	</tr>
 
-?>
+	<tr>
+		<td align="right">Post Title</td>
+		<td><input type="text" name="title" size="30"></td>
+	</tr>
 
-<tr align="center" > 
-	<td><?php echo $blog_id; ?></td>
-	<td><?php echo $blog_date; ?></td>
-	<td><?php echo $blog_author; ?></td>
-	<td><?php echo $blog_title; ?></td>
-	<td><img src="../images2/uploads/<?php echo $blog_image; ?>"width="80" height="80" </td>
-	<td><?php echo $blog_content; ?></td>
-	<td><a href="deleteblog.php?dele=<?php echo $blog_id; ?>">Delete</a></td>
-	
-	
-</tr> 
-<?php } ?>
-	
-</table>
-</div>
+	<tr>
+		<td align="right">Post Author</td>
+		<td><input type="text" name="author" size="30"></td>
+	</tr>
+
+	<tr>
+		<td align="right">Post Keywords</td>
+		<td><input type="text" name="keywords" size="30"></td>
+	</tr>
+
+	<tr>
+		<td align="right">Post Image</td>
+		<td><input type="file" name="image"></td>
+	</tr>
+	<tr>
+		<td align="right">Post Content</td>
+		<td><textarea name="content" cols="30" rows="15"></textarea></td>
+	</tr>
+
+	<tr>
+		
+		<td align="center" colspan="6"><input type="submit" name="submit" value="Publish Now"></td>
+	</tr>
+	</tbody>
+
+	</table>
+	</div>
+</form>
+
 
 </div>
       </div>
@@ -210,7 +225,6 @@ while ($row=mysqli_fetch_array($run)) {
       <!--main content end-->
   </section>
   <!-- container section start -->
-
 
 <!-- javascripts -->
     <script src="js/jquery.js"></script>
@@ -304,3 +318,35 @@ while ($row=mysqli_fetch_array($run)) {
 
   </body>
 </html>
+
+<?php
+include("includes/connect.php");
+
+if (isset($_POST['submit'])) {
+	# code...
+	 $post_title =$_POST['title'];
+	 $post_date =date('y-m-d');
+	 $post_author =$_POST['author'];
+	 $post_keywords =$_POST['keywords'];
+	 $post_content =$_POST['content'];
+	 $post_image =$_FILES['image']['name'];
+	  $image_tmp =$_FILES['image']['tmp_name'];
+
+	 if ($post_title=='' or $post_keywords=='' or $post_content=='' or $post_author=='') {
+	 	# code...
+	 	echo "<script>alert('any of the fields is empty')</script";
+	 	exit();
+	 }
+
+	 else{
+	 	move_uploaded_file($image_tmp,"../images2/uploads/$post_image");
+	 	$insert_query ="insert into posts(post_title,post_date,post_author,post_image,post_keywords,post_content) values('$post_title','$post_date','$post_author','$post_image','$post_keywords','$post_content')";  
+	 	if (mysqli_query($con,$insert_query)) {
+	 		# code...
+	 		echo "<script> alert('post Published successfuly!')</script>";
+	 		echo "<script> window.open('view_posts.php','_self')</script>";
+	 	}
+	 }
+}
+
+?>
