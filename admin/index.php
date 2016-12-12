@@ -98,20 +98,6 @@
                           <span>Dashboard</span>
                       </a>
                   </li>
-				  <li class="sub-menu">
-                      <a href="view_posts.php" class="">
-                          <i class="fa fa-eye" aria-hidden="true"></i>
-                          <span>View News</span>
-                          </a>                      
-                  </li>       
-                  <li class="sub-menu">
-                      <a href="insert_post.php" class="">
-                          <i class="fa fa-plus" aria-hidden="true"></i>
-                          <span>Add News</span>
-                         
-                      </a>
-                      
-                  </li>
                   <li>
                       <a class="" href="insert_blog.php">
                           <i class="fa fa-plus" aria-hidden="true"></i>
