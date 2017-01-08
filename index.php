@@ -80,7 +80,7 @@
                             <div class="col-sm-6">
                                 <div class="carousel-content center centered">
                                     <h2 class="boxed animation animated-item-1">Community Economic Strengthening</h2>
-                                    <p class="boxed animation animated-item-2">We enhances the capacity of the local people within Nakuru County to depend on themselves...</p>
+                                    <p class="boxed animation animated-item-2">We enhances the capacity of the local people within Nakuru County to depend on themselves.</p>
                                     <br>
                                     <a class="btn btn-md  boxed animation animated-item-2" href="#">Learn More</a>
                                 </div>
